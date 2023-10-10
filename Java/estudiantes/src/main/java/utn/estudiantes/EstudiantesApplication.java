@@ -138,5 +138,7 @@ private boolean ejecutarOpciones (Scanner consola){
 		}
 		default -> logger.info("Opcion no reconocida: "+opcion+nl );
 	}// Fin switch
+	/*linea de codigo */
 	return salir;
 } //Fin método ejecutarOpciones
+/*linea de codigo */
