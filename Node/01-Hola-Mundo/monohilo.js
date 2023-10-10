@@ -12,3 +12,4 @@ setInterval(function(){
 },1000); 
 
 console.log('Última instrucción')
+//otra linea
