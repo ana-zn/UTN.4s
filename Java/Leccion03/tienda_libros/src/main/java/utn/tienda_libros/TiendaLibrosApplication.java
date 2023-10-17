@@ -7,7 +7,17 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TiendaLibrosApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TiendaLibrosApplication.class, args);
-	}
+		ConfigurableApplicationContext contextoSpring =
+				new SpringApplicationBuilder(TiendaLibrosApplication.class)
+						.headless(false)
+						.web(WebApplicationType.NONE)
+						.run(args);
 
+		//Ejcutamos el código para cargar el formulario
+		EventQueue.invokeLater(() -> { //Método Lambda
+			//Obtenemos el objetivo from a través del Spring
+			LibroFrom libroFrom = contextoSpring.getBean(LibroFrom.class);
+			libroFrom.setVisible(true);
+		}); 
+	}
 }

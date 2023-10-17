@@ -2,10 +2,13 @@ package utn.tienda_libros.vista;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import utn.tienda_libros.modelo.Libro;
+import utn.tienda_libros.modelo.Libro;
 import utn.tienda_libros.servicio.LibroServicio;
 
 import javax.swing.*;
+import java.awt.*;
 
+@Component
 public class LibroFrom extends JFrame {
     LibroServicio libroServicio;
     private JPanel panel;
