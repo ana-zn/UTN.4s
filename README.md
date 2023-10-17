@@ -12,6 +12,9 @@ La Tecnicatura Universitaria en de la UTN - regional San Rafael. Durante cada se
 El repositorio está organizado por lenguajes, y en cada lenguaje esta organizado por semanas la cual contiene trabajos y proyectos relacionados. 
 
 ### Lenguajes 
+Java ☕
+JavaScript 🌐, Node.js 🚀
+Python 🐍
 
 ## Uso y contribuciones 🤝
 
